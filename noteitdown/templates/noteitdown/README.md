@@ -1,0 +1,2 @@
+NoteItDown is a note sharing website for college and other educational institution. User can share their and notes and educational material through this website without any payment or service charge. This website is a initiative by college student for easy access and transfer of educational material.
+
