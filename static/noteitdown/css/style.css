@@ -1,0 +1,13 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+#display {
+ margin: 20px;
+ padding: 20px;
+}
+p{
+    margin:20px;
+    padding:20px;
+    text-align: justify;
+}

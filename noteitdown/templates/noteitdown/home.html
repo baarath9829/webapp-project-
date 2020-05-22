@@ -1,0 +1,30 @@
+{% extends "noteitdown/base.html" %}
+{% block content %}
+    <div id="display">
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <br>
+        <table class="table table-hover">
+            <thead class="thead-dark">
+          <tr>
+            <th>Author Name</th>
+            <th>Department</th>
+            <th>Date of Publish</th>
+              <th>File Download</th>
+          </tr>
+        </thead>
+            <tbody id="myTable">
+    {% for data in dataset %}
+        <tr>
+            <td>{{ data.author_name }}</td>
+            <td>{{ data.department }}</td>
+            <td>{{ data.date_of_pub }}</td>
+        <td><a href=
+        {{ data.file.url }} download>
+            download
+        </a></td>
+        </tr>
+        {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
