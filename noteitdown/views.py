@@ -7,10 +7,12 @@ def invalid(request):
     return redirect('home')
 def home(request):
     context={}
+    if(request.method=='POST'):
+        data = notes.object.get(id=request.POST['id'])
+        print("got !!")
+        data.views = data.views+1
+        data.save()
     context["dataset"] = notes.objects.all()
-    for data in context["dataset"]:
-        obj=data.file.url
-        print("-")
     return render(request, "noteitdown/home.html", context)
 
 def upload_view(request):
@@ -20,7 +22,7 @@ def upload_view(request):
         form = upload(request.POST, request.FILES)
         if form.is_valid():
             data = form.cleaned_data
-            entry = notes(author_name=data["author_name"], date_of_pub=date, department=data["department"], file=data["file"])
+            entry = notes(author_name=data["author_name"], date_of_pub=date, department=data["department"], name=data["name"], file=data["file"])
             entry.save()
             return redirect('home')
         else:

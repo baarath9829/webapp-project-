@@ -3,4 +3,4 @@ from .models import notes
 class upload(forms.ModelForm):
     class Meta:
         model = notes
-        exclude = ["date_of_pub"]
+        exclude = ["date_of_pub","views"]

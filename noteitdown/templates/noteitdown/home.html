@@ -1,4 +1,19 @@
 {% extends "noteitdown/base.html" %}
+{% block javascript %}
+    <script>
+        //to avoid frequent upload of static file in development
+      $(document).ready(function(){
+        $("a").click(function(){
+            var id_val = $(this).attr("id");
+            var csrf = '{{ csrf_token }}';
+            $.post("home",{
+            id: id_val,
+            csrftoken : csrf
+             });
+        });
+      });
+    </script>
+{% endblock %}
 {% block content %}
     <div id="display">
         <input class="form-control" id="myInput" type="text" placeholder="Search..">
@@ -9,6 +24,8 @@
             <th>Author Name</th>
             <th>Department</th>
             <th>Date of Publish</th>
+              <th>File Name</th>
+              <th>Views</th>
               <th>File Download</th>
           </tr>
         </thead>
@@ -18,8 +35,10 @@
             <td>{{ data.author_name }}</td>
             <td>{{ data.department }}</td>
             <td>{{ data.date_of_pub }}</td>
+            <td>{{ data.name }}</td>
+            <td>{{ data.views }}</td>
         <td><a href=
-        {{ data.file.url }} download>
+        "{{ data.file.url }}" id="{{ data.id }}" download>
             download
         </a></td>
         </tr>
