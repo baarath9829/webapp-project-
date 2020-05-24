@@ -1,19 +1,4 @@
 {% extends "noteitdown/base.html" %}
-{% block javascript %}
-    <script>
-        //to avoid frequent upload of static file in development
-      $(document).ready(function(){
-        $("a").click(function(){
-            var id_val = $(this).attr("id");
-            var csrf = '{{ csrf_token }}';
-            $.post("home",{
-            id: id_val,
-            csrftoken : csrf
-             });
-        });
-      });
-    </script>
-{% endblock %}
 {% block content %}
     <div id="display">
         <input class="form-control" id="myInput" type="text" placeholder="Search..">

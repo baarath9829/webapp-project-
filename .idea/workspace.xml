@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34ff9e81-9ffd-4c34-80ea-49d287618224" name="Default Changelist" comment="" />
+    <list default="true" id="34ff9e81-9ffd-4c34-80ea-49d287618224" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noteitdown/static/noteitdown/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/noteitdown/static/noteitdown/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noteitdown/templates/noteitdown/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/noteitdown/templates/noteitdown/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noteitdown/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/noteitdown/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +15,11 @@
   <component name="FavoritesManager">
     <favorites_list name="website" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bkwVCVeI5kGPuKKz0VAf4ZjGpg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -18,11 +27,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Public/python-docs-samples/appengine/standard_python37/django" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
       <recent name="$PROJECT_DIR$/noteitdown/templates/noteitdown" />
     </key>
   </component>
@@ -48,19 +59,24 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1589206509312" />
-    <state x="376" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1590153334912">
+    <state x="376" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1590327934366">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1589296716093" />
-    <state x="376" y="225" key="com.intellij.ide.util.TipDialog/72.27.1294.741@72.27.1294.741" timestamp="1590153334912" />
+    <state x="376" y="225" key="com.intellij.ide.util.TipDialog/72.27.1294.741@72.27.1294.741" timestamp="1590327934366" />
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589358371179">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/70.27.1296.741@70.27.1296.741" timestamp="1589358371179" />
-    <state x="0" y="27" width="863" height="741" key="find.popup" timestamp="1589252582924">
-      <screen x="70" y="27" width="1296" height="741" />
+    <state x="487" y="317" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590311390322">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="487" y="317" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1590311390322" />
+    <state x="72" y="27" width="863" height="741" key="find.popup" timestamp="1590305450504">
+      <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="0" y="27" width="863" height="741" key="find.popup/70.27.1296.741@70.27.1296.741" timestamp="1589252582924" />
+    <state x="72" y="27" width="863" height="741" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1590305450504" />
     <state x="383" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1589566551788">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

@@ -8,8 +8,7 @@ def invalid(request):
 def home(request):
     context={}
     if(request.method=='POST'):
-        data = notes.object.get(id=request.POST['id'])
-        print("got !!")
+        data = notes.objects.get(id=request.POST['id'])
         data.views = data.views+1
         data.save()
     context["dataset"] = notes.objects.all()
