@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models  import notes
 from .forms import upload
 import datetime
+
 # Create your views here.
 def invalid(request):
     return redirect('home')
@@ -32,3 +33,6 @@ def upload_view(request):
 
 def about(request):
     return render(request, "noteitdown/about.html")
+
+
+

@@ -14,9 +14,11 @@
     </div>
 </div>
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">NoteItDown</a>
+    </div>
   <!-- Links -->
-  <ul class="navbar-nav">
+  <ul class="navbar-nav mr-auto">
     <li class="nav-item">
       <a class="nav-link" href="{% url 'home' %}">Home</a>
     </li>
@@ -27,6 +29,11 @@
       <a class="nav-link" href="{% url 'upload'%}">upload</a>
     </li>
   </ul>
+    <ul class="navbar-nav ml-auto">
+      <li><a href="{% url 'signup' %}"> Sign Up </a></li>
+      <li><a href="{% url 'login' %}"> Login </a></li>
+        <li><a href="{% url 'logout' %}"> Logout </a></li>
+    </ul>
 
 </nav>
 {% block content %} {% endblock %}
