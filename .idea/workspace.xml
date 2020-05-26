@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34ff9e81-9ffd-4c34-80ea-49d287618224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/templates/user/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gcloudignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gcloudignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noteitdown/templates/noteitdown/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/noteitdown/templates/noteitdown/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/noteitdown/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/noteitdown/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/website/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noteitdown/templates/noteitdown/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/noteitdown/templates/noteitdown/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/templates/user/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/user/templates/user/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +64,11 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="207" y="31" width="1022" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1589206509312" />
-    <state x="376" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1590327934366">
+    <state x="376" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1590474093125">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1589296716093" />
-    <state x="376" y="225" key="com.intellij.ide.util.TipDialog/72.27.1294.741@72.27.1294.741" timestamp="1590327934366" />
+    <state x="376" y="225" key="com.intellij.ide.util.TipDialog/72.27.1294.741@72.27.1294.741" timestamp="1590474093125" />
     <state x="497" y="87" width="432" height="627" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589358371179">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
