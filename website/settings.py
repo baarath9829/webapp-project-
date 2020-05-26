@@ -160,5 +160,5 @@ GS_BUCKET_NAME = os.environ.get('GS_BUCKET_NAME')
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'upload'
 
